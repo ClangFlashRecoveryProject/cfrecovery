@@ -3796,7 +3796,54 @@
 				<action function="page">advanced</action>
 			</action>
 		</page>
+		
+                      <page name="tools">
+			<template name="page"/>
 
+			<text style="text_l">
+				<placement x="%col1_x_header%" y="%row3_header_y%"/>
+				<text>{@tools_hdr=Tools}</text>
+			</text>
+
+			<button style="main_button">
+				<placement x="%indent%" y="%row2a_y%"/>
+				<text>{@root_btn=Password reset}</text>
+				<actions>
+					<action function="set">tw_back=tools</action>
+					<action function="set">tw_filename=/sbin/Resetpass.zip</action>
+					<action function="set">tw_action=flash</action>
+					<action function="set">tw_text1={@root_text=Reset password?.}</action>
+					<action function="set">tw_text2={@root_confirm=You are sure?}</action>
+					<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+
+			<button style="main_button">
+				<placement x="%center_x%" y="%row2a_y%"/>
+				<text>{@disable_noverify_btn=MIUI Boot}</text>
+				<actions>
+					<action function="set">tw_back=tools</action>
+					<action function="set">tw_filename=/sbin/miuiboot.zip</action>
+					<action function="set">tw_action=flash</action>
+					<action function="set">tw_text1={@disable_noverify_text=Flash this,if you install miui,but no install root}</action>
+					<action function="set">tw_text2={@disable_noverify_confirm=Use lazyflasher?}</action>
+					<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+			
+			<action>
+				<touch key="home"/>
+				<action function="page">main</action>
+			</action>
+
+			<action>
+				<touch key="back"/>
+				<action function="page">advanced</action>
+			</action>
+		</page>
+		
 		<page name="lock">
 			<background color="%semi_transparent%"/>
 
