@@ -684,8 +684,8 @@
 		<string name="cancel_sideload">Cancelling ADB sideload...</string>
 		<string name="change_fs_err">Error changing file system.</string>
 		<string name="theme_ver_err">Custom theme version does not match TWRP version. Using stock theme.</string>
-		<string name="disable_noverify_btn">Lazyflasher</string>
-		<string name="disable_noverify_confirm">If you install miui,but not installed root use this</string>
+		<string name="disable_noverify_btn">MIUI Boot</string>
+		<string name="disable_noverify_confirm">If you install miui but not installed root use this</string>
 		<string name="disable_noverify_text">Use lazyflasher?</string>
 		<string name="root_btn">Password reset</string>
 		<string name="root_confirm">Swipe to reset</string>
