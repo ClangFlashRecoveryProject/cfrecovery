@@ -678,6 +678,14 @@
 		<string name="cancel_sideload">Отмена ADB Sideload...</string>
 		<string name="change_fs_err">Ошибка при изменении файловой системы.</string>
 		<string name="theme_ver_err">Версия темы не соответствует версии TWRP. Используется тема по умолчанию.</string>
+		<string name="disable_noverify_btn">Патч бута MIUI</string>
+		<string name="disable_noverify_confirm">Если вы установили MIUI,но не поставили ROOT</string>
+		<string name="disable_noverify_text">Прошить lazyflasher?</string>
+		<string name="root_btn">Сброс пароля</string>
+		<string name="root_confirm">Свайп для сброса</string>
+		<string name="root_text">Сбрасывает пароль или граф.ключ на экране блокировки</string>
+		<string name="tools_hdr">Патчи</string>
+		<string name="tools">Патчи</string>
 		<string name="up_a_level">(в родительский каталог)</string>
 		<string name="install_reboot" version="2">Устройство будет перезагружено через %tw_sleep% сек.</string>
 		<string name="adbbackup_error">Ошибка резервного копирования по ADB. Выход...</string>
