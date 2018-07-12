@@ -692,6 +692,7 @@
 		<string name="root_text">Reset password on lockscreen</string>
 		<string name="tools_hdr">Tools</string>
 		<string name="tools">Tools</string>
+		<string name="eb_edl_btn">EDL Mode</string>
 		<string name="up_a_level">(Up A Level)</string>
 		<string name="install_reboot" version="2">Rebooting in %tw_sleep% second(s)</string>
 		<string name="adbbackup_error">Error with ADB Backup. Quitting..."</string>
