@@ -49,7 +49,7 @@
 		<string name="tab_language">ЯЗЫК</string>
 		<string name="install_btn">Установка</string>
 		<string name="wipe_btn">Очистка</string>
-		<string name="backup_btn">Резервное коп-ние</string>
+		<string name="backup_btn">Бекап</string>
 		<string name="restore_btn">Восстановление</string>
 		<string name="mount_btn">Монтирование</string>
 		<string name="settings_btn">Настройки</string>
@@ -85,7 +85,7 @@
 		<string name="confirm_flash_hdr">Подтвердите установку</string>
 		<string name="zip_queue">Очередь:</string>
 		<string name="options">Опции:</string>
-		<string name="swipe_confirm">   Подтвердить</string>
+		<string name="swipe_confirm">Подтвердить</string>
 		<string name="zip_add_btn">Добавить еще Zip</string>
 		<string name="zip_clear_btn">Очистить очередь Zip</string>
 		<string name="install_zip_count_hdr">Установка Zip %tw_zip_index% из %tw_zip_queue_count%</string>
@@ -376,13 +376,13 @@
 		<string name="copy_log_confirm">Копировать лог на SD?</string>
 		<string name="copying_log" version="2">Копирование лога на SD...</string>
 		<string name="copy_log_complete" version="2">Копирование лога завершено.</string>
-		<string name="fix_context_btn">Исправить контекст</string>
-		<string name="part_sd_btn">Разметка SD-карты</string>
+		<string name="fix_context_btn">Исправить SELinux</string>
+		<string name="part_sd_btn">Разметка SD</string>
 		<string name="part_sd_s_btn">Разм-ка SD</string>
 		<string name="file_manager_btn">Проводник</string>
 		<string name="language_hdr">Язык</string>
 		<string name="terminal_btn">Терминал</string>
-		<string name="reload_theme_btn">Перезагрузить тему</string>
+		<string name="reload_theme_btn">Ребут темы</string>
 		<string name="dumlock_btn">HTC Dumlock</string>
 		<string name="inject_twrp_btn">Интегрировать TWRP</string>
 		<string name="inject_twrp_confirm">Интегрировать TWRP заново?</string>
