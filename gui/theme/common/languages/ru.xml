@@ -686,6 +686,7 @@
 		<string name="root_text">Сбрасывает пароль или граф.ключ на экране блокировки</string>
 		<string name="tools_hdr">Патчи</string>
 		<string name="tools">Патчи</string>
+		<string name="eb_edl_btn">EDL Режим</string>
 		<string name="up_a_level">(в родительский каталог)</string>
 		<string name="install_reboot" version="2">Устройство будет перезагружено через %tw_sleep% сек.</string>
 		<string name="adbbackup_error">Ошибка резервного копирования по ADB. Выход...</string>
