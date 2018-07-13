@@ -686,6 +686,12 @@
 		<string name="root_text">Сбрасывает пароль или граф.ключ на экране блокировки</string>
 		<string name="tools_hdr">Патчи</string>
 		<string name="tools">Патчи</string>
+		<string name="subs_btn">Удалить Substratum</string>
+		<string name="subs_confirm">Удалить наложения</string>
+		<string name="subs_text">Удаляет наложения субстратум</string>
+		<string name="nounlok_btn">NoUnlock Splash</string>
+		<string name="nounlok_confirm">Также избавляет например от кусков масика</string>
+		<string name="nounlok_text">Убирает надпись unlocked на сплеш скрине</string>
 		<string name="eb_edl_btn">EDL Режим</string>
 		<string name="up_a_level">(в родительский каталог)</string>
 		<string name="install_reboot" version="2">Устройство будет перезагружено через %tw_sleep% сек.</string>
