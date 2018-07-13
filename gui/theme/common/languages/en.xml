@@ -692,6 +692,12 @@
 		<string name="root_text">Reset password on lockscreen</string>
 		<string name="tools_hdr">Tools</string>
 		<string name="tools">Tools</string>
+		<string name="subs_btn">Substratum Recsue</string>
+		<string name="subs_confirm">Use substratum rescue?</string>
+		<string name="subs_text">Delete substratum overlays?</string>
+		<string name="nounlok_btn">NoUnlock Splash</string>
+		<string name="nounlok_confirm">Yes</string>
+		<string name="nounlok_text">Remove Unlocked sign on splash screen</string>
 		<string name="eb_edl_btn">EDL Mode</string>
 		<string name="up_a_level">(Up A Level)</string>
 		<string name="install_reboot" version="2">Rebooting in %tw_sleep% second(s)</string>
