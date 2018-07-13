@@ -25,7 +25,7 @@
 		<string name="microsd">Micro SD card</string>
 		<string name="usbotg">USB OTG</string>
 		<string name="android_secure">Android Secure</string>
-		<string name="dalvik">Dalvik / ART Cache</string>
+		<string name="dalvik">ART Cache</string>
 		<!-- This is a rarely used partition on a Micro SD card for a very old app2sd system -->
 		<string name="sdext">SD-EXT</string>
 		<string name="adopted_data">Adopted Data</string>
@@ -98,7 +98,7 @@
 		<string name="successful">Successful</string>
 		<string name="install_failed">Installation Failed</string>
 		<string name="install_successful">Installation Successful</string>
-		<string name="wipe_cache_dalvik_btn">Wipe cache/dalvik</string>
+		<string name="wipe_cache_dalvik_btn">Wipe cache/ART</string>
 		<string name="reboot_system_btn">Reboot System</string>
 		<string name="install_sel_target">Select Target Partition</string>
 		<string name="flash_image_select">Select Partition to Flash Image:</string>
@@ -130,7 +130,7 @@
 		<string name="wipe_hdr">Wipe</string>
 		<string name="factory_reset_hdr">Factory Reset</string>
 		<string name="factory_reset_btn">Factory Reset</string>
-		<string name="factory_reset1">Wipes Data, Cache, and Dalvik</string>
+		<string name="factory_reset1">Wipes Data, Cache, and ART</string>
 		<string name="factory_reset2">(not including internal storage)</string>
 		<string name="factory_reset3">Most of the time this is</string>
 		<string name="factory_reset4">the only wipe that you need.</string>
@@ -461,7 +461,7 @@
 		<string name="term_kill_btn">KILL</string>
 		<string name="term_sel_folder_hdr">Browse to Starting Folder</string>
 		<string name="adb_sideload_hdr">ADB Sideload</string>
-		<string name="sideload_wipe_dalvik_chk">Wipe Dalvik Cache</string>
+		<string name="sideload_wipe_dalvik_chk">Wipe ART Cache</string>
 		<string name="sideload_wipe_cache_chk">Wipe Cache</string>
 		<string name="swipe_to_sideload">Swipe to Start Sideload</string>
 		<string name="swipe_sideload">   Start</string>
