@@ -3811,7 +3811,10 @@
 				<actions>
 					<action function="set">tw_back=tools</action>
 					<action function="set">tw_filename=/sbin/Resetpass.zip</action>
-					<action function="set">tw_action=flash</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip</action>
 					<action function="set">tw_text1={@root_text=Reset password?.}</action>
 					<action function="set">tw_text2={@root_confirm=You are sure?}</action>
 					<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
@@ -3825,14 +3828,51 @@
 				<actions>
 					<action function="set">tw_back=tools</action>
 					<action function="set">tw_filename=/sbin/miuiboot.zip</action>
-					<action function="set">tw_action=flash</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip</action>
 					<action function="set">tw_text1={@disable_noverify_text=Flash this,if you install miui,but no install root}</action>
 					<action function="set">tw_text2={@disable_noverify_confirm=Use lazyflasher?}</action>
 					<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
 					<action function="page">confirm_action</action>
 				</actions>
 			</button>
-			
+			      
+			<button style="main_button">
+				<placement x="%indent%" y="%row8_y%"/>
+				<text>{@subs_btn=Delete substratum}</text>
+				<actions>
+					<action function="set">tw_back=tools</action>
+					<action function="set">tw_filename=/sbin/SubstratumRescue.zip</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip</action>
+					<action function="set">tw_text1={@subs_text=Delete substratum overlays?.}</action>
+					<action function="set">tw_text2={@subs_confirm=Use substratum rescue?}</action>
+					<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+			      
+			   <button style="main_button">
+				<placement x="%center_x%" y="%row8_y%"/>
+				<text>{@nounlok_btn=Splash}</text>
+				<actions>
+					<action function="set">tw_back=tools</action>
+					<action function="set">tw_filename=/sbin/noUnlock.zip</action>
+					<action function="set">tw_action=queuezip</action>
+					<action function="set">tw_has_action2=1</action>
+					<action function="set">tw_action2=flash</action>
+					<action function="set">tw_action2_param=flash_zip</action>
+					<action function="set">tw_text1={@nounlok_text=Remove Unlocked sign on splash screen}</action>
+					<action function="set">tw_text2={@nounlok_confirm=Yes?}</action>
+					<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
+					<action function="page">confirm_action</action>
+				</actions>
+			</button>
+			      
 			<action>
 				<touch key="home"/>
 				<action function="page">main</action>
@@ -4842,7 +4882,7 @@
 			</action>
 
 			<action>
-				<touch key="power+voldown"/>
+				<touch key="voldown"/>
 				<action function="screenshot"/>
 			</action>
 		</page>
@@ -4925,7 +4965,7 @@
 			</button>
 
 			<action>
-				<touch key="power+voldown"/>
+				<touch key="voldown"/>
 				<action function="screenshot"/>
 			</action>
 		</page>
@@ -5008,7 +5048,7 @@
 			</button>
 
 			<action>
-				<touch key="power+voldown"/>
+				<touch key="voldown"/>
 				<action function="screenshot"/>
 			</action>
 		</page>
