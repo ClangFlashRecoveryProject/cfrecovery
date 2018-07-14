@@ -4708,7 +4708,7 @@
 			</action>
 
 			<action>
-				<touch key="power+voldown" />
+				<touch key="voldown" />
 				<action function="screenshot" />
 			</action>
 		</page>
