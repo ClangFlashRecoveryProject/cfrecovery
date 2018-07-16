@@ -112,13 +112,6 @@
 		<string name="rebooting">Перезагрузка...</string>
 		<string name="swipe_reboot">Свайп для перезагрузки</string>
 		<string name="swipe_reboot_s">   Перезагрузка</string>
-		<string name="reboot_install_app_hdr">Установить TWRP App?</string>
-		<string name="reboot_install_app1">Вы хотите установить официальное приложение TWRP?</string>
-		<string name="reboot_install_app2">Оно позволит вам проверять наличие новой версии TWRP.</string>
-		<string name="reboot_install_app_prompt_install">Предлагать установку TWRP App при его отсутствии</string>
-		<string name="reboot_install_app_system">Установить как системное приложение</string>
-		<string name="reboot_installing_app">Установка TWRP приложения...</string>
-		<string name="swipe_to_install_app">Свайп для установки TWRP App</string>
 		<string name="swipe_flash">Свайп для прошивки</string>
 		<string name="confirm_action">Подтвердить действие</string>
 		<string name="back_cancel">Нажмите назад для отмены.</string>
@@ -305,8 +298,6 @@
 		<string name="use_rmrf_chk">Использовать rm -rf вместо форматирования</string>
 		<string name="use24clock_chk">Использовать 24-часовой формат времени</string>
 		<string name="rev_navbar_chk">Инвертировать порядок навигационных кнопок</string>
-		<string name="simact_chk">Имитация действий для тестирования темы</string>
-		<string name="simfail_chk">Имитация отказа для действий</string>
 		<string name="ctr_navbar_rdo">Кнопки нав.панели по центру</string>
 		<string name="lft_navbar_rdo">Выровнять кнопки нав.панели слева</string>
 		<string name="rht_navbar_rdo">Выровнять кнопки нав.панели справа</string>
