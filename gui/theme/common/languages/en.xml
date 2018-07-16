@@ -105,9 +105,9 @@
 		<string name="target_partition">Target Partition:</string>
 		<string name="flashing_image">Flashing Image...</string>
 		<string name="image_flashed">Image Flashed</string>
-		<string name="wipe_cache_dalvik_confirm">Wipe Cache &amp; Dalvik?</string>
-		<string name="wiping_cache_dalvik">Wiping Cache &amp; Dalvik...</string>
-		<string name="wipe_cache_dalvik_complete">Cache &amp; Dalvik Wipe Complete</string>
+		<string name="wipe_cache_dalvik_confirm">Wipe Cache &amp; ART?</string>
+		<string name="wiping_cache_dalvik">Wiping Cache &amp; ART...</string>
+		<string name="wipe_cache_dalvik_complete">Cache &amp; ART Wipe Complete</string>
 		<string name="swipe_wipe">Swipe to Wipe</string>
 		<string name="swipe_wipe_s">   Wipe</string>
 		<string name="no_os1">No OS Installed! Are you</string>
@@ -538,9 +538,9 @@
 		<string name="unable_find_part_path">Unable to find partition for path '{1}'</string>
 		<string name="update_part_details">Updating partition details...</string>
 		<string name="update_part_details_done">...done</string>
-		<string name="wiping_dalvik">Wiping Dalvik Cache Directories...</string>
+		<string name="wiping_dalvik">Wiping ART Cache Directories...</string>
 		<string name="cleaned">Cleaned: {1}...</string>
-		<string name="dalvik_done">-- Dalvik Cache Directories Wipe Complete!</string>
+		<string name="dalvik_done">-- ART Cache Directories Wipe Complete!</string>
 		<string name="no_andsec">No android secure partitions found.</string>
 		<string name="unable_to_locate">Unable to locate {1}.</string>
 		<string name="wiping_datamedia">Wiping internal storage -- /data/media...</string>
