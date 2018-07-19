@@ -3105,6 +3105,9 @@
 				<listitem name="{@rev_navbar_chk=Reversed navbar layout}">
 					<data variable="tw_samsung_navbar"/>
 				</listitem>
+				<listitem name="{@simact_chk=Simulate actions for theme testing}">
+					<data variable="tw_simulate_actions"/>
+				</listitem>
 				<listitem name="{@simfail_chk=Simulate failure for actions}">
 					<condition var1="tw_simulate_actions" var2="1"/>
 					<data variable="tw_simulate_fail"/>
