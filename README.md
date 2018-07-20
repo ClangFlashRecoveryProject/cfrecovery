@@ -1,2 +1,1 @@
-**ClangFlash Recovery Project (TWRP)**
-Flash Easier,Flash More!
+**ClangFlash Recovery Project (CFRP)**
