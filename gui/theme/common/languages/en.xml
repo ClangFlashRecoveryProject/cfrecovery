@@ -309,8 +309,6 @@
 		<string name="use_rmrf_chk">Use rm -rf instead of formatting</string>
 		<string name="use24clock_chk">Use 24-hour clock</string>
 		<string name="rev_navbar_chk">Reversed navbar layout</string>
-		<string name="simact_chk">Simulate actions for theme testing</string>
-		<string name="simfail_chk">Simulate failure for actions</string>
 		<string name="ctr_navbar_rdo">Center navbar buttons</string>
 		<string name="lft_navbar_rdo">Left align navbar buttons</string>
 		<string name="rht_navbar_rdo">Right align navbar buttons</string>
@@ -664,7 +662,6 @@
 		<string name="size_progress">%lluMB of %lluMB, %i%%</string>
 		<string name="decrypt_cmd">Attempting to decrypt data partition via command line.</string>
 		<string name="base_pkg_err">Failed to load base packages.</string>
-		<string name="simulating">Simulating actions...</string>
 		<string name="backup_cancel">Backup Cancelled</string>
 		<string name="config_twrp">Configuring TWRP...</string>
 		<string name="config_twrp_err">Unable to configure TWRP with this kernel.</string>

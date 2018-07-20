@@ -305,8 +305,6 @@
 		<string name="use_rmrf_chk">Использовать rm -rf вместо форматирования</string>
 		<string name="use24clock_chk">Использовать 24-часовой формат времени</string>
 		<string name="rev_navbar_chk">Инвертировать порядок навигационных кнопок</string>
-		<string name="simact_chk">Имитация действий для тестирования темы</string>
-		<string name="simfail_chk">Имитация отказа для действий</string>
 		<string name="ctr_navbar_rdo">Кнопки нав.панели по центру</string>
 		<string name="lft_navbar_rdo">Выровнять кнопки нав.панели слева</string>
 		<string name="rht_navbar_rdo">Выровнять кнопки нав.панели справа</string>
@@ -658,7 +656,6 @@
 		<string name="size_progress">%llu МБ из %llu МБ, %i%%</string>
 		<string name="decrypt_cmd">Попытка расшифровать раздел данных с помощью командной строки.</string>
 		<string name="base_pkg_err">Неудача при загрузке базовых пакетов.</string>
-		<string name="simulating">Имитация действий...</string>
 		<string name="backup_cancel">Резервное копирование отменено</string>
 		<string name="config_twrp">Конфигурирование TWRP...</string>
 		<string name="config_twrp_err">Невозможно сконфигурировать TWRP с этим ядром.</string>
