@@ -665,7 +665,7 @@
 		<string name="root_text">Сбрасывает пароль или граф.ключ на экране блокировки</string>
 		<string name="tools_hdr">Патчи</string>
 		<string name="tools">Патчи</string>
-		<string name="subs_btn">Удалить Substratum</string>
+		<string name="subs_btn">Substratum</string>
 		<string name="subs_confirm">Удалить наложения</string>
 		<string name="subs_text">Удаляет наложения субстратум</string>
 		<string name="nounlok_btn">NoUnlock Splash</string>
