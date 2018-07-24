@@ -82,6 +82,7 @@
 		<string name="zip_back_clear">Press back button to clear the queue.</string>
 		<string name="folder">Folder:</string>
 		<string name="file">File:</string>
+		<string name="zip_sig_chk">Zip signature verification</string>
 		<string name="inject_twrp_chk">Inject TWRP after install</string>
 		<string name="install_reboot_chk">Reboot after installation is complete</string>
 		<string name="options_hdr">Options</string>
@@ -216,6 +217,7 @@
 		<string name="enc_enabled">enabled</string>
 		<string name="enable_backup_comp_chk">Enable compression</string>
 		<string name="skip_digest_backup_chk" version="2">Skip Digest generation during backup</string>
+		<string name="disable_backup_space_chk" version="2">Disable free space check before backup</string>
 		<string name="current_boot_slot">Current Slot: %tw_active_slot%</string>
 		<string name="boot_slot_a">Slot A</string>
 		<string name="boot_slot_b">Slot B</string>
@@ -304,6 +306,7 @@
 		<string name="settings_gen_hdr">General</string>
 		<string name="settings_gen_s_hdr">General</string>
 		<string name="settings_gen_btn">General</string>
+		<string name="use_rmrf_chk">Use rm -rf instead of formatting</string>
 		<string name="use24clock_chk">Use 24-hour clock</string>
 		<string name="rev_navbar_chk">Reversed navbar layout</string>
 		<string name="ctr_navbar_rdo">Center navbar buttons</string>
@@ -636,6 +639,9 @@
 		<string name="check_for_digest" version="2">Checking for Digest file...</string>
 		<string name="invalid_zip_format">Invalid zip file format!</string>
 		<string name="fail_sysmap">Failed to map file '{1}'</string>
+		<string name="verify_zip_sig">Verifying zip signature...</string>
+		<string name="verify_zip_fail">Zip signature verification failed!</string>
+		<string name="verify_zip_done">Zip signature verified successfully.</string>
 		<string name="zip_corrupt">Zip file is corrupt!</string>
 		<string name="no_digest" version="2">Skipping Digest check: no Digest file found</string>
 		<string name="digest_fail" version="2">Digest does not match</string>
