@@ -250,7 +250,7 @@
 		<string name="restore_try_decrypt_s">Попытка расшифровки</string>
 		<string name="restore_backup_date">Резервная копия создана: %tw_restore_file_date%</string>
 		<string name="restore_sel_part">Выбор раздела для восстановления:</string>
-		<string name="restore_enable_digest_chk" version="2">Включить проверку Digest файлов резервной копии</string>
+		<string name="restore_enable_digest_chk" version="2">Включить проверку хеш-файлов резервной копии</string>
 		<string name="restore_complete">Восстановление завершено</string>
 		<string name="swipe_restore">Свайп для восстановления</string>
 		<string name="swipe_restore_s">   Восстановление</string>
@@ -514,8 +514,8 @@
 		<string name="restore_folder">Папка для восстановления: '{1}'</string>
 		<!-- {1} is the partition display name and {2} is the number of seconds -->
 		<string name="restore_part_done">[{1} выполнено за {2} секунд(ы)]</string>
-		<string name="verifying_digest" version="2">Проверка Digest</string>
-		<string name="skip_digest" version="2">Пропуск проверки Digest согласно настройкам.</string>
+		<string name="verifying_digest" version="2">Проверка хешей</string>
+		<string name="skip_digest" version="2">Пропуск проверки хешей согласно настройкам.</string>
 		<string name="calc_restore">Вычисление информации о восстановлении...</string>
 		<string name="restore_read_only">Невозможно восстановить {1} -- смонтировано только для чтения.</string>
 		<string name="restore_unable_locate">Не удается найти '{1}' раздел для восстановления.</string>
@@ -578,9 +578,9 @@
 		<string name="cannot_resize">Невозможно изменить размер {1}.</string>
 		<string name="repair_resize">Восстановление {1} перед изменением размера.</string>
 		<string name="unable_resize">Не удается изменить размер {1}.</string>
-		<string name="no_digest_found" version="2">Отсутствует файл digest для '{1}'. Пожалуйста отмените выбор проверки Digest при восстановлении.</string>
-		<string name="digest_fail_match" version="2">Digest не соответствует '{1}'.</string>
-		<string name="digest_matched" version="2">Digest соответствует '{1}'.</string>
+		<string name="no_digest_found" version="2">Отсутствует файл digest для '{1}'. Пожалуйста отмените выбор проверки хешей при восстановлении.</string>
+		<string name="digest_fail_match" version="2">Хеш сумма не соответствует '{1}'.</string>
+		<string name="digest_matched" version="2">Хеш сумма соответствует '{1}'.</string>
 		<string name="fail_decrypt_tar">Не удается расшифровать tar-файл '{1}'</string>
 		<string name="format_data_msg">Вам, возможно, потребуется перезагрузись рекавери, чтобы иметь возможность использовать /data снова.</string>
 		<string name="format_data_err">Невозможно отформатировать и удалить шифрование.</string>
@@ -602,7 +602,7 @@
 		<string name="backup_folder_set">Папка для резервной копии установлена в '{1}'</string>
 		<string name="locate_backup_err">Не удается найти резервную копию '{1}'</string>
 		<string name="set_restore_opt">Установки опций восстановления: '{1}':</string>
-		<string name="digest_check_skip" version="2">Пропуск проверки Digest включен</string>
+		<string name="digest_check_skip" version="2">Пропуск проверки хешей включен</string>
 		<string name="ors_encrypt_restore_err">Не удается использовать OpenRecoveryScript для восстановления зашифрованной резервной копии.</string>
 		<string name="mounting">Монтирование</string>
 		<string name="unmounting">Размонтирование</string>
@@ -623,7 +623,7 @@
 		<string name="installing_zip">Установка zip файла '{1}'</string>
 		<string name="select_backup_opt">Установка опций резервного копирования:</string>
 		<string name="compression_on">Сжатие включено</string>
-		<string name="digest_off" version="2">Вычисление Digest выключено</string>
+		<string name="digest_off" version="2">Вычисление хешей выключено</string>
 		<string name="backup_fail">Ошибка резервного копирования</string>
 		<string name="backup_clean">Ошибка резервного копирования. Очистка папки с резервной копией.</string>
 		<string name="running_recovery_commands">Выполнение команд рекавери</string>
@@ -631,15 +631,15 @@
 		<string name="running_ors">Выполнение OpenRecoveryScript</string>
 		<string name="ors_complete">OpenRecoveryScript выполнен</string>
 		<string name="invalid_zip_format">Неверный формат zip файла!</string>
-		<string name="check_for_digest" version="2">Проверка Digest-файлов...</string>
+		<string name="check_for_digest" version="2">Проверка хеш-файлов...</string>
 		<string name="fail_sysmap">Не удалось отобразить в память файл '{1}'</string>
 		<string name="verify_zip_sig">Проверка подписи zip...</string>
 		<string name="verify_zip_fail">Подпись Zip не прошла проверку!</string>
 		<string name="verify_zip_done">Подпись Zip проверена успешно.</string>
 		<string name="zip_corrupt">Zip-файл поврежден!</string>
 		<string name="no_digest" version="2">Пропуск проверки Digest: не найден Digest-файл</string>
-		<string name="digest_fail" version="2">Digest не соответствует</string>
-		<string name="digest_match" version="2">Digest соответствует</string>
+		<string name="digest_fail" version="2">Хеш сумма не соответствует</string>
+		<string name="digest_match" version="2">Хеш сумма соответствует</string>
 		<string name="pid_signal">Процесс {1} завершился с кодом {2}</string>
 		<string name="pid_error">Процесс {1} завершился с ОШИБКОЙ: {2}</string>
 		<string name="install_dumlock">Установка HTC Dumlock в систему...</string>
