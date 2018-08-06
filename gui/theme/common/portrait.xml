@@ -2825,22 +2825,7 @@
 					<action function="page">rebootcheck</action>
 				</actions>
 			</button>
-			
-			<button style="main_button">
-				<condition var1="tw_reboot_edl" var2="1"/>
-				<placement x="%indent%" y="%row13a_y%"/>
-				<text>{@rb_edl_btn=EDL(9008)}</text>
-				<actions>
-					<action function="set">tw_back=reboot</action>
-					<action function="set">tw_action=rebootedl</action>
-					<action function="set">tw_action_text1={@resetting_lockscreen=reboot edl.}</action>
-					<action function="set">tw_complete_text1={@reset_lockscreen_complete=reboot edl}</action>
-					<action function="set">tw_slider_text={@swipe_to_confirm=Swipe to Confirm}</action>
-					<action function="set">tw_show_reboot=1</action>
-					<action function="page">action_page</action>
-				</actions>
-			</button>
-			
+
 			<button style="main_button">
 				<condition var1="tw_download_mode" var2="1"/>
 				<placement x="%indent%" y="%row13a_y%"/>

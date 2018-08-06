@@ -682,7 +682,6 @@
 		<string name="nounlok_btn">NoUnlock Splash</string>
 		<string name="nounlok_confirm">Также избавляет например от кусков масика</string>
 		<string name="nounlok_text">Убирает надпись unlocked на сплеш скрине</string>
-		<string name="rb_edl_btn">EDL Режим</string>
 		<string name="sha2_chk">Использовать SHA2 для хеширования</string>
 		<string name="up_a_level">(в родительский каталог)</string>
 		<string name="install_reboot" version="2">Устройство будет перезагружено через %tw_sleep% сек.</string>
